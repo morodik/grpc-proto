@@ -1,4 +1,4 @@
-module github.com/morodik/protos
+module github.com/morodik/grpc-proto
 
 go 1.24.0
 
