@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "example.com/grpc-service/gen/go/sso";
+option go_package = "morozov.sso.v1;ssov1";
 
 service Auth {
   rpc Register(RegistertRequest) returns (RegisterResponse);
